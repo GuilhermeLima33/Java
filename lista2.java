@@ -37,11 +37,11 @@ public class lista2 {
 				
 				
 				//3 - Conversão de valor
-				double real;
+				double dolar;
 				System.out.println("Informe o valor a ser convertido: ");
-				real = scanner.nextDouble();
-		        double dolar = real * 5.70;
-                System.out.println("Conversão para Dólar: " + dolar);
+				dolar = scanner.nextDouble();
+		        double real = dolar / 5.70;
+                System.out.println("Conversão para real: " + real);
 				
                 //4 - Área do retângulo
                 int base;
